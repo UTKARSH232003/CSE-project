@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --red: rgb(248, 68, 100);
+    --red-light: rgb(236, 94, 113);
+    --light-orange: rgba(255, 196, 0, 0.2);
+    --grey: rgb(51, 53, 69);
+    --dark-grey: rgb(31, 37, 51);
+    --footer-color: rgb(49, 48, 53);
+    --footer-color-light: rgb(64, 64, 67);
+}
+body{
+    background: var(--grey);
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+}
+
+
+/* navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    font-family:cursive;
+    background-color: var(--dark-grey);
+    /* background: transparent; */
+    width: 100%;
+    height: 4rem;
+    /* display: inline-block; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.heading-book{
+    text-transform: uppercase;
+    text-shadow:1px 1px 2px black;
+    font-size: 25px;
+    font-weight: 800;
+}
+.list-div{
+    margin-left: -250px;
+}
+nav>a{
+    float: left;
+    color: white;
+    text-shadow:1px 1px 2px black;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: -1rem;
+    padding: 0 30px;
+}
+nav>div>ul{
+    float: right;
+    align-content: center;
+}
+.li-nav{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+.li-a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 8px;
+    /* background-color: var(--red-light); */
+    /* border: 1px solid rgb(248, 68, 100); */
+}
+.li-a:hover{
+    /* background-color: var(--red); */
+    color: rgb(64, 64, 67);
+    transition: .2s;
+}
+.search-box{
+    border-radius: 8px;
+    padding: 6px 18px 4px 21px;
+    margin: 0px 0px 0px 0px;
+    background: transparent;
+}
+.search-btn{
+    padding: 4px 11px 1px 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 8px;
+    background-color: rgb(70 148 141 / 57%);
+    cursor: pointer;
+}
+.div1{
+    display: flex;
+}
+.image-div{
+    background: url(https://blog.addthiscdn.com/wp-content/uploads/2018/05/11124555/3-Things-Great-Websites-Have-in-Common1-672x372.png) center/cover no-repeat;
+    width: 90%;
+    height: 276px;
+    left: 4%;
+    border-radius: 37px;
+    float: left;
+    margin-top: 5%;
+    position: relative;
+}
+.head-rev{
+    display: flex;
+    justify-content: center;
+    font-family: campton-medium,open sans,Arial,Helvetica,sans-serif;
+    font-size: 2.5rem;
+}
+.what-is-reserv{
+    float: right;
+    position: relative;
+    margin: 7% 1% 0% 11%;
+    padding: 0px 0px 0px 0px;
+}
+.reserv1{
+    font-size: 1.2rem;
+    /* color: #001c38; */
+    /* font-family: campton-light,open sans,Arial,Helvetica,sans-serif; */
+    font-weight: 300;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgb(49, 48, 48);
+}
+.image-div2{
+    background: url(https://grammartop.com/wp-content/uploads/2020/11/methodology-488f1a23453770c85d6bba8200517e430312982e.png) center/cover no-repeat;
+    width: 350px;
+    height: 276px;
+    border-radius: 37px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 7%;
+    position: relative;
+}
+.reserv2{
+    font-size: 1.2rem;
+    /* color: #001c38; */
+    /* font-family: campton-light,open sans,Arial,Helvetica,sans-serif; */
+    font-weight: 300;
+}
+.what-is-reserv2{
+    float: left;
+    width: 65%;
+    position: relative;
+    margin: 9% 0% 0% 0%;
+    padding: 6px 1px 3px 34px;
+}
+.head-rev2{
+    display: flex;
+    justify-content: center;
+    /* font-family: campton-medium,open sans,Arial,Helvetica,sans-serif; */
+    font-size: 2.5rem;
+}
+.reserv3{
+    margin: 136px 7px 11px 87px;
+    padding: 306px 112px 73px 41px;
+    /* font-family: campton-light,open sans,Arial,Helvetica,sans-serif; */
+    /* color: #001c38; */
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.head-rev3{
+    display: flex;
+    justify-content: center;
+    font-family: campton-medium,open sans,Arial,Helvetica,sans-serif;
+    font-size: 2.5rem;
+    margin: 391px 28px -406px 39px;
+}
